@@ -3,11 +3,7 @@ package com.invisibleprogrammer;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-class Day1Test {
-
-  static StringUtil stringUtil = new StringUtil();
-
-
+class Day1Test extends TestBase {
   @Test
   public void partI_exampleTest(){
     Assertions.assertEquals(142, getDay1("day1-partI-sample.txt").partI());

@@ -7,11 +7,7 @@ import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
 import java.util.List;
 
-public class Day1 {
-
-  List<String> allLines;
-
-
+public class Day1 extends Day {
   public Day1(List<String> allLines) {
     this.allLines = allLines;
   }
